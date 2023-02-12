@@ -1,0 +1,5 @@
+pet_id,category_id,category_name,pet_name,tags_id,tags_name,status
+522401,1,Cachorro,Jujuba,1,vacinado,available
+522402,2,Gato,Miucha,2,castrado,available
+522403,3,Peixe,Lucca,3,premiado,available
+522404,2,Gato,Bichento,1,vacinado,available

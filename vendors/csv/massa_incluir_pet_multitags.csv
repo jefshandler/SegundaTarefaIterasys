@@ -1,0 +1,5 @@
+pet_id,category_id,category_name,pet_name,tags,status
+1202202335,22,Cachorro,Abobora,"10,vacinado;11,pequeno porte;13,castrado",available
+1202202336,32,Gato,Potira,"13,castrado",available
+1202202337,42,Peixe,Lucca,"3,registrado",pending
+1202202338,22,Cachorro,Zeus,"15,medio porte;16,adestrado",available

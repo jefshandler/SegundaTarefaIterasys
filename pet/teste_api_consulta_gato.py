@@ -1,6 +1,4 @@
 import json
-
-import pytest
 import requests
 
 # variaveis publicas
