@@ -6,7 +6,7 @@ import requests
 urlbase = 'https://petstore.swagger.io/v2/user'
 headers = {'Content-Type': 'application/json'}
 
-def teste_login_user():
+def teste_login_usuario():
     # 1 -   Configura
     # 1.1 - dados de Entrada -> Virao do arquivo add_login.json
     # 1.2 - Resultado Esperado

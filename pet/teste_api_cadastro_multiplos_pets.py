@@ -10,7 +10,7 @@ headers = {'Content-Type': 'application/json'}
 
 @pytest.mark.parametrize('pet_id,category_id,category_name,pet_name,tags_id,tags_name,status',
                          ler_csv(r'../vendors/csv/massa_incluir_pet.csv'))
-def teste_incluir_pet_em_massa(pet_id, category_id, category_name, pet_name, tags_id, tags_name, status):
+def teste_incluir_pet_em_massa_CSV(pet_id, category_id, category_name, pet_name, tags_id, tags_name, status):
     # 1 configura
     # 1.1 dados de entrada
     # os dados de entrada provem do arquivo massa_incluir_pet_csv
@@ -58,7 +58,7 @@ def teste_incluir_pet_em_massa(pet_id, category_id, category_name, pet_name, tag
 
 @pytest.mark.parametrize('pet_id,category_id,category_name,pet_name,tags,status',
                          ler_csv(r'../vendors/csv/massa_incluir_pet_multitags.csv'))
-def teste_incluir_pet_em_massa_com_multiplas_tags(pet_id, category_id, category_name, pet_name, tags, status):
+def teste_incluir_multiplos_pets_CSV(pet_id, category_id, category_name, pet_name, tags, status):
     # 1. Configura
     # 1.1 Dados de entrada
     # Os dados de entrada proveem do arquivo massa_incluir_pet_multitags.csv

@@ -3,7 +3,7 @@ import json
 
 urlbase = 'https://petstore.swagger.io/v2/store/order'
 headers = {'Content-Type': 'application/json'}
-def teste_vender():
+def teste_status_order_pet():
     # 1 -   Configura
     # 1.1 - dados de Entrada -> vem do arquivo add_order1.json
     # 1.2 - Resultado Esperado

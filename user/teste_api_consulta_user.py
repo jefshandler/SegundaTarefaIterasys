@@ -6,7 +6,7 @@ import requests
 urlbase = 'https://petstore.swagger.io/v2/user'
 headers = {'Content-Type': 'application/json'}
 
-def teste_consultar_user():
+def teste_consultar_usuario():
     # 1 Parte é dividido em 2 partes entradas e Resultados esperados
     # configura - prepara
     # Dados de entrada provem do arquivo json (user.json)
