@@ -1,7 +1,7 @@
 import json
 import pytest
 import requests
-from util.manager_csv import ler_csv
+from util.ler_csv import ler_csv
 
 
 # variaveis publicas
